@@ -1,0 +1,210 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	width: 1084px;
+	height: 1000px;
+	font-family: HelveticaNeue, Verdana;
+}
+header{
+	height: 40px;
+	width: 100%;
+	background-color: rgb(7,80,142);
+
+}
+@font-face {
+font-family: 'HelveticaNeue';
+        src:    url('http://nomail.com.ua/files/eot/cd2355028bca504c63a432c086eceb52.eot?#iefix') format('embedded-opentype'),
+            url('http://nomail.com.ua/files/woff/cd2355028bca504c63a432c086eceb52.woff') format('woff'),
+            url('http://nomail.com.ua/files/woff2/cd2355028bca504c63a432c086eceb52.woff2') format('woff2');
+}
+
+@font-face { font-family: 'HelveticaNeue';  src: local('HelveticaNeueCyr-Roman'), url('http://nomail.com.ua/files/woff/cd2355028bca504c63a432c086eceb52.woff') format('woff');
+ }
+.navigation{
+	height: 40px;
+	width: 100%;
+	display:inline-flex;
+	flex-direction:row-reverse;
+	justify-content:flex-start;
+	margin: auto;
+	
+	
+}
+.nav-block{
+	height: 40px;
+	width: 100px;
+	flex-basis: 100px;
+	font-size: 13px;
+	text-align: center;
+	margin: auto 0px;
+	color: rgb(72,153,210);
+	
+}
+.nav-block a{
+	color: rgb(72,153,210);
+	text-decoration: none
+}
+.nav-block1{
+	flex-basis: 180px;
+	height: 40px;
+	width: 	180px;
+	font-size: 13px;
+	color: 	white;
+	text-align: center;
+	background-color: rgb(78,171,218);
+	
+	
+}
+.nav-block1 a{
+	color: white;
+	text-decoration: dashed;
+
+}
+.nav-block2{
+	flex-basis: 110px;
+	font-size: 13px;
+	text-align: center;
+	height: 40px;
+	width: 110px;
+	color: 	white;
+	
+
+}
+.nav-block2 a{
+	color: rgb(72,153,210);
+	text-decoration: none
+}
+.nav-block:hover{
+	background-color: rgb(78,171,218);
+	color: white;
+
+}
+.nav-block:hover a{
+	text-decoration:none;
+	color: 	white;	
+}
+article{
+	background: url(../img/backfon.jpg);
+	position: relative;
+
+
+}
+.loginform{
+	width: 400px;
+	height: 700px;
+	display: table;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	 top: 50%;
+    left: 50%;
+     margin: -30% 0 0 -25%;
+}
+.cell{
+	height: 40px;
+    width: 400px;
+    margin: auto ;
+    font-size: 25px;
+    padding-top: 5px;
+    border-bottom: 1px solid white;
+    text-align: center;
+    color: white;
+ 
+}
+
+input{
+	width: 220px;
+	height: 37px;
+	margin: 0 0 0 0;
+	background-color: rgba(16, 16, 16, 0.9);
+	color: white;
+	font-size: 16px;
+}
+.facebook{
+	width: 400px;
+	height: 70px;
+	padding-top: 20px;
+	text-align: center;
+}
+.ouline{
+	width: 400px;
+	height: 40px;
+	position: relative;
+	overflow: hidden;
+	white-space: nowrap;
+	text-align: center;
+}
+.ouline:before,
+.ouline:after {
+	content: "";
+	position: relative;
+	display: inline-block;
+	width: 25%;
+	height: 2px;
+	
+	vertical-align: middle;
+	background: #000;
+	background-clip: content-box;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+	}
+	.ouline:before {    
+	left: -.5em;
+	margin: 0 0 0 -50%;
+	}
+.ouline:after {    
+	left: .5em;
+	margin: 0 -50% 0 0;
+	}
+.ouline>span {
+	display: inline-block;
+	vertical-align: middle;
+	white-space: normal;
+	}
+	form{
+		width: 400px;
+		height: 200px;
+	}
+	.inputarea{
+		width: 400px;
+		height: 60px;
+		margin: auto;
+		text-align: center;
+
+	}
+	.registerform{
+		padding-left: 15px;
+	}
+	input.registerform:focus{
+		background-color: rgb(27, 82, 176);
+		border: 2px solid #4d7c9a;
+	}
+	.check{
+		width: 20px;
+		height: 20px;
+	}
+	.areacheck{
+		width: 400px;
+		height: 40px;
+		text-align: center;
+		color: white;
+		font-size: 16px;
+	}
+	button{
+		width: 149px;
+		height: 40px;
+		background-image: linear-gradient(225deg, #4faddb, #4aa5d7, #27e7a4);
+		color: white;
+	}
+.footer{
+	width: 300px;
+	height: 120px;
+	margin: auto;
+	color: white;
+	font-size: 12px;
+}
+.footertag{
+	width: 350px;
+	height: 15px;
+	margin: auto;
+	text-align: center;
+}
+
